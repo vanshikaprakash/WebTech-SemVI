@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Border Radius & Z-Index Styling</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+.box1{
+    width: 650px;
+    padding: 20px;
+    border: 6px solid #ff4d6d;
+    border-radius: 45px;
+    margin: 30px auto;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px gray;
+    background-color: white;
+}
+
+.box2{
+    width: 650px;
+    padding: 20px;
+    border: 6px solid #4c6ef5;
+    border-radius: 60px 20px;
+    margin: 30px auto;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px gray;
+    background-color: white;
+}
+
+h2{
+    color: #000000;
+    text-shadow: 2px 2px 3px rgb(255, 149, 149);
+}
+
+/* Z-index styling */
+
+.zindex-border{
+    position: relative;
+    width: 380px;
+    height: 220px;
+    margin: 40px auto;
+    border: 3px dashed #888;
+}
+
+.zitem{
+    position: absolute;
+    width: 180px;
+    height: 110px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.z1{
+    top: 20px;
+    left: 20px;
+    background: #ffea61;
+    z-index: 1;
+}
+
+.z2{
+    top: 55px;
+    left: 95px;
+    background: #a0cfff;
+    z-index: 2;
+}
+
+.z3{
+    top: 90px;
+    left: 170px;
+    background: #ad92ff;
+    z-index: 3;
+}
+
+</style>
+</head>
+
+<body>
+
+<h2>Vanshika Prakash, 23SCS1011128</h2>
+
+<div class="box1">
+CSS allows us to create smooth rounded corners using the border-radius property.
+It improves the visual design of buttons, cards, and containers.
+</div>
+
+<div class="box2">
+Using multiple border-radius values lets us design creative shapes.
+Different corner curves can give elements a modern and dynamic look.
+</div>
+
+<h2>Z-Index Example</h2>
+
+<div class="zindex-border">
+    <div class="zitem z1">Hi</div>
+    <div class="zitem z2">Its me</div>
+    <div class="zitem z3">Vanshika</div>
+</div>
+
+</body>
+</html>
