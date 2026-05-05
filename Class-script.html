@@ -1,13 +1,14 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
+        <title>Javascript Events</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <h1> Javascript Events </h1>
         <h2> The mouseover and mouseout events </h2>
-        <div id = "box" style = "width:200px; height:100px ; padding:16px; font-size:20px; border:1px solid#000;">Move mouse over this box</div>
+        <div id = "box" style = "width:200px; height:100px ; padding:16px; font-size:20px; border:1px solid #000;">Move mouse over this box</div>
 <script> const box  = document.getElementById("box");
     box.addEventListener("mouseover" , function(){
         box.innerHTML = "mouse is over me!";
@@ -16,7 +17,7 @@
 
     box.addEventListener("mouseout" ,function() {
         box.innerHTML = "mouse is out";
-        box.style.backgroundColor = "blue"
+        box.style.backgroundColor = "blue";
 
     });
 </script>
