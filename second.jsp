@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Welcome to the session</title>
+<title>Welcome to the new session</title>
 </head>
 <body>
 Hello
